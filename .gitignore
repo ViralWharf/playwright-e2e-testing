@@ -1,0 +1,61 @@
+# ===============================
+# Java
+# ===============================
+*.class
+*.log
+
+# ===============================
+# Maven
+# ===============================
+target/
+*.jar
+*.war
+*.ear
+
+# ===============================
+# Gradle
+# ===============================
+.gradle/
+build/
+
+# ===============================
+# IDEs
+# ===============================
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# VS Code
+.vscode/
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# ===============================
+# OS
+# ===============================
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# ===============================
+# Reports / Test results
+# ===============================
+allure-results/
+allure-report/
+surefire-reports/
+test-output/
+
+# ===============================
+# Environment / Secrets
+# ===============================
+.env
+*.properties
+!application.properties
