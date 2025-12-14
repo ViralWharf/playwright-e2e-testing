@@ -1,22 +1,18 @@
 # ===============================
-# Java
+# Node.js
 # ===============================
-*.class
-*.log
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
 
 # ===============================
-# Maven
+# Playwright
 # ===============================
-target/
-*.jar
-*.war
-*.ear
-
-# ===============================
-# Gradle
-# ===============================
-.gradle/
-build/
+test-results/
+playwright-report/
+playwright/.cache/
 
 # ===============================
 # IDEs
@@ -26,36 +22,33 @@ build/
 *.iml
 *.iws
 *.ipr
-out/
 
 # VS Code
 .vscode/
-
-# Eclipse
-.project
-.classpath
-.settings/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
 
 # ===============================
 # OS
 # ===============================
 # macOS
 .DS_Store
+.AppleDouble
+.LSOverride
 
 # Windows
 Thumbs.db
-
-# ===============================
-# Reports / Test results
-# ===============================
-allure-results/
-allure-report/
-surefire-reports/
-test-output/
+ehthumbs.db
+Desktop.ini
 
 # ===============================
 # Environment / Secrets
 # ===============================
 .env
-*.properties
-!application.properties
+.env.local
+.env.*.local
+*.key
+
+# ===============================
+# Build / Dist
